@@ -1,0 +1,81 @@
+
+body /*corpo*/{
+  background-color:#808080;
+  font-family: courier new;
+  
+}
+img {
+  height: 150px;
+  }
+.container {
+	max-width: 1200px;
+    margin: auto;    
+	display:inline-grid;
+    background-color: gray;
+    padding: 10px;
+    border: 2px solid black;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 10px;    
+    border:2px solid black;
+   
+    }
+
+    a:hover {
+        color: lightblue;
+    }
+
+    a{
+    	color: black;
+    	text-decoration: none;
+    }
+
+#img1{
+	width: 200px;
+    height: 200px;
+}
+
+#botao{
+	 background: gray;
+	 color: black;
+	 border-style: solid;
+	 border-color: black;
+	 height: 50px;
+	 width: 75px;
+	 font-family: courier new; 
+	 text-shadow: none;
+}
+#botao:hover {
+	color: lightblue;
+}
+
+footer{  
+  bottom: 0;  
+  height: 40px;
+  position: fixed;
+  width: 100%;
+}
+
+#escrita-especial{
+	
+	color: lightblue;
+
+}
+
+#img2{
+	width: 100px;
+    height: 100px;
+}
+#botao2:hover {
+        color: lightblue;
+        
+    }
+
+#formulario-especial{
+	  
+	background-color: gray;
+    padding: 10px;
+    border: 2px solid black;
+    font-family: courier new;
+    margin-top: 1em;
+
+}
